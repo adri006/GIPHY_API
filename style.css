@@ -45,6 +45,7 @@ header{
 
 }
 .search-button{
+    cursor: pointer;
     background: none;
     border: none;
 }
