@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Kanit';
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+
+.results{
+    padding: 30px 0 0 40px; 
+    columns: 4;
+    column-gap: 1em;
+}
+.logo-block{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.logo__image{
+    width: 40px;
+    height: 40px;
+}
+.logo__title{
+    color: white;
+}
+.search-input{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.search-block{
+    padding: 5px 5px 5px 10px;
+    height: 35px;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+
+}
+.search-button{
+    background: none;
+    border: none;
+}
+.search-button__img{
+    margin-top: 3px;
+    height: 25px;
+    width: 30px;
+}
+.gif-img{
+    width: 320px;
+}
